@@ -7,34 +7,43 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 <body>
-	<div class="left">
-		<div class="menu">
-			<li class="menuitem" id="main">
-				<a href="index.html" class="button"><i class="fas fa-home"></i>main page</a>
-			</li>
-			
-			<li class="menuitem" id="landing">
-				<a href="#landing" class="button"><i class="fas fa-sitemap"></i>landings</a>
-				<div class="submenu">
-					<a href="#">Lorem ipsum.</a>
-					<a href="#">Lorem ipsum.</a>
-					<a href="#">Lorem ipsum.</a>
-				</div>
-			</li>
-			
-			<li class="menuitem" id="hover">
-				<a href="#hover" class="button"><i class="fas fa-sitemap"></i>hover ffects</a>
-				<div class="submenu">
-					<a href="#">Lorem ipsum.</a>
-					<a href="#">Lorem ipsum.</a>
-					<a href="#">Lorem ipsum.</a>
-				</div>
-			</li>
-			
-			<li class="menuitem" id="lorem">
-				<a href="#lorem" class="button"><i class="fas fa-sitemap"></i>Lorem ipsum dolor</a>
-			</li>
+	<script>
+		function setPage(url) {
+			document.getElementById('iFrame').setAttribute('src', url);
+		}
+	</script>
+		<div class="left">
+			<div class="menu">
+				<li class="menuitem" onclick="setPage('./welcome.html')">
+					<span class="button" onclick="setPage('./welcome.html')"><i class="fas fa-home"></i>main page</span>
+				</li>
+
+				<li class="menuitem" id="landing">
+					<a href="#landing" class="button"><i class="fas fa-sitemap"></i>landings</a>
+					<div class="submenu">
+						<a href="#">Lorem ipsum.</a>
+						<a href="#">Lorem ipsum.</a>
+						<a href="#">Lorem ipsum.</a>
+					</div>
+				</li>
+
+				<li class="menuitem" id="hover">
+					<a href="#hover" class="button"><i class="fas fa-sitemap"></i>hover ffects</a>
+					<div class="submenu">
+						<a href="#">Lorem ipsum.</a>
+						<a href="#">Lorem ipsum.</a>
+						<a href="#">Lorem ipsum.</a>
+					</div>
+				</li>
+
+				<li class="menuitem" id="lorem">
+					<a href="#lorem" class="button"><i class="fas fa-sitemap"></i>Lorem ipsum dolor</a>
+				</li>
+			</div>
 		</div>
-	</div>
+		<div class="right">
+			<iframe id="iFrame" src="./welcome.html">
+			</iframe>
+		</div>
 </body>
 </html>
