@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.input{
+	background: #F0F8FF;
+	font: inherit;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+	border: 0;
+	outline: 0;
+	padding: 18px;
+}
+.bgimg{
+	/* Create a Parallax Effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Logo. Full height */
+	background-image: url(../../images/fog-foggy-forest-4827.jpg);
+	min-height: 100%
+}
