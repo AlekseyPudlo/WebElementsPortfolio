@@ -10,13 +10,13 @@
 	outline: 0;
 	padding: 18px;
 }
-.container{
+.center-nested-elements{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-.bgimg{
+#bgimg{
 	/* Create a Parallax Effect */
 	background-attachment: fixed;
 	background-position: center;
