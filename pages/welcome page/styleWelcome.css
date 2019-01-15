@@ -26,3 +26,10 @@
 	background-image: url(../../images/fog-foggy-forest-4827.jpg);
 	min-height: 100%
 }
+#container{
+	height: 30em;
+	width: 60em;
+	justify-content: space-around;
+	padding: 0 2em;
+	background-color: hsla(180, 29%, 91%, 0.45);
+}
