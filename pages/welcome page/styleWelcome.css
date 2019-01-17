@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 *{
 	padding: 0;
 	margin: 0;
@@ -32,4 +33,10 @@
 	justify-content: space-around;
 	padding: 0 2em;
 	background-color: hsla(180, 29%, 91%, 0.45);
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3em;
+	letter-spacing: .1em;
+	word-spacing: .3em;
 }
