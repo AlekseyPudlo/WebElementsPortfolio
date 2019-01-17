@@ -3,13 +3,20 @@
 	padding: 0;
 	margin: 0;
 }
-.input{
+.font-abril-fatface{
+	font-family: 'Abril Fatface', cursive;
+}
+input{
 	background: #FFFAF7;
-	font: inherit;
-	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+	font-size: 1.2em;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
 	border: 0;
 	outline: 0;
 	padding: 18px;
+	font-family: inherit;
+}
+input:nth-child(3){
+	grid-column: 1 / span 2;
 }
 .center-nested-elements{
 	display: flex;
@@ -35,8 +42,13 @@
 	background-color: hsla(180, 29%, 91%, 0.45);
 }
 h1{
-	font-family: 'Abril Fatface', cursive;
 	font-size: 3em;
 	letter-spacing: .1em;
 	word-spacing: .3em;
+}
+.contact{
+	display: grid;
+	grid-template-columns: 20em 20em;
+	grid-template-rows: 4em 4em;
+	grid-gap: .8em;
 }
