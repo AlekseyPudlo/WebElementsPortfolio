@@ -12,7 +12,7 @@ input{
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
 	border: 0;
 	outline: 0;
-	padding: 18px;
+	padding-left: 1em;
 	font-family: inherit;
 }
 input:nth-child(3){
@@ -35,8 +35,8 @@ input:nth-child(3){
 	min-height: 100%
 }
 #container{
-	height: 30em;
-	width: 60em;
+	height: 32em;
+	max-width: 45em;
 	justify-content: space-around;
 	padding: 0 2em;
 	background-color: hsla(180, 29%, 91%, 0.45);
@@ -46,9 +46,12 @@ h1{
 	letter-spacing: .1em;
 	word-spacing: .3em;
 }
+p{
+	font-size: 1.4em
+}
 .contact{
 	display: grid;
-	grid-template-columns: 20em 20em;
+	grid-template-columns: 22em 22em;
 	grid-template-rows: 4em 4em;
 	grid-gap: .8em;
 }
