@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 *{
 	padding: 0;
 	margin: 0;
 }
-.input{
+.font-abril-fatface{
+	font-family: 'Abril Fatface', cursive;
+}
+input{
 	background: #FFFAF7;
-	font: inherit;
-	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+	font-size: 1.2em;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
 	border: 0;
 	outline: 0;
-	padding: 18px;
+	padding-left: 1em;
+	font-family: inherit;
+}
+input:nth-child(3){
+	grid-column: 1 / span 2;
 }
 .center-nested-elements{
 	display: flex;
@@ -27,9 +35,23 @@
 	min-height: 100%
 }
 #container{
-	height: 30em;
-	width: 60em;
+	height: 32em;
+	max-width: 45em;
 	justify-content: space-around;
 	padding: 0 2em;
 	background-color: hsla(180, 29%, 91%, 0.45);
+}
+h1{
+	font-size: 3em;
+	letter-spacing: .1em;
+	word-spacing: .3em;
+}
+p{
+	font-size: 1.3em
+}
+.contact{
+	display: grid;
+	grid-template-columns: 22em 22em;
+	grid-template-rows: 4em 4em;
+	grid-gap: .8em;
 }
